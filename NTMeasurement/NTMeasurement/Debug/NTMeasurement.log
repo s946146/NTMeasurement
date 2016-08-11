@@ -1,0 +1,47 @@
+﻿已經開始建置於 2016/7/22 下午 04:23:08。
+     1>節點 2 (Build 目標) 上的專案 "D:\碩一\ImageProcessing\HW2\NTMeasurement\NTMeasurement\NTMeasurement.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\NTMeasurement.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\System.Xml.dll" /analyze- /errorReport:prompt ImageProcessing.cpp MyForm.cpp NTMeasurement.cpp
+         ImageProcessing.cpp
+     1>ImageProcessing.cpp(101): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>ImageProcessing.cpp(110): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>ImageProcessing.cpp(128): warning C4244: '*=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>ImageProcessing.cpp(267): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>ImageProcessing.cpp(315): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>ImageProcessing.cpp(347): warning C4244: '=' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>ImageProcessing.cpp(352): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>ImageProcessing.cpp(389): warning C4244: '引數' : 將 'double' 轉換為 'unsigned int'，由於型別不同，可能導致資料遺失
+     1>ImageProcessing.cpp(408): warning C4244: '引數' : 將 'double' 轉換為 'unsigned int'，由於型別不同，可能導致資料遺失
+     1>ImageProcessing.cpp(432): warning C4244: '引數' : 將 'double' 轉換為 'unsigned int'，由於型別不同，可能導致資料遺失
+     1>ImageProcessing.cpp(446): warning C4244: '引數' : 將 'double' 轉換為 'unsigned int'，由於型別不同，可能導致資料遺失
+         MyForm.cpp
+         NTMeasurement.cpp
+         正在產生程式碼...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\碩一\ImageProcessing\HW2\NTMeasurement\Debug\NTMeasurement.exe" /INCREMENTAL /NOLOGO opencv_core247d.lib opencv_imgproc247d.lib opencv_highgui247d.lib opencv_ml247d.lib opencv_video247d.lib opencv_features2d247d.lib opencv_calib3d247d.lib opencv_objdetect247d.lib opencv_contrib247d.lib opencv_legacy247d.lib opencv_flann247d.lib opencv_nonfree247d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:Debug\NTMeasurement.MyForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\碩一\ImageProcessing\HW2\NTMeasurement\Debug\NTMeasurement.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\ImageProcessing.obj
+         Debug\MyForm.obj
+         Debug\NTMeasurement.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.5.1.AssemblyAttributes.obj"
+     1>MyForm.obj : warning LNK4258: 指示詞 '/entry:WinMainCRTStartup' 與參數 '/ENTRY:main' 不相容。已忽略
+     1>NTMeasurement.obj : warning LNK4258: 指示詞 '/entry:WinMainCRTStartup' 與參數 '/ENTRY:main' 不相容。已忽略
+     1>NTMeasurement.obj : error LNK2020: 無法解析的語彙基元 (0A0005C0) "public: void __thiscall cv::Mat::copySize(class cv::Mat const &)" (?copySize@Mat@cv@@$$FQAEXABV12@@Z)
+     1>MyForm.obj : error LNK2028: 無法解析的語彙基元 (0A0005BC) "public: void __thiscall cv::Mat::copySize(class cv::Mat const &)" (?copySize@Mat@cv@@$$FQAEXABV12@@Z) 在函式 "public: __thiscall cv::Mat::Mat(class cv::Mat const &)" (??0Mat@cv@@$$FQAE@ABV01@@Z) 中被參考
+     1>ImageProcessing.obj : error LNK2028: 無法解析的語彙基元 (0A0005A7) "public: void __thiscall cv::Mat::copySize(class cv::Mat const &)" (?copySize@Mat@cv@@$$FQAEXABV12@@Z) 在函式 "public: __thiscall cv::Mat::Mat(class cv::Mat const &)" (??0Mat@cv@@$$FQAE@ABV01@@Z) 中被參考
+     1>NTMeasurement.obj : error LNK2028: 無法解析的語彙基元 (0A0005C1) "int __cdecl cv::_interlockedExchangeAdd(int *,int)" (?_interlockedExchangeAdd@cv@@$$FYAHPAHH@Z) 在函式 "private: void __clrcall NTMeasurement::MyForm::pictureBox1_MouseUp(class System::Object ^,class System::Windows::Forms::MouseEventArgs ^)" (?pictureBox1_MouseUp@MyForm@NTMeasurement@@$$FA$AAMXP$AAVObject@System@@P$AAVMouseEventArgs@Forms@Windows@4@@Z) 中被參考
+     1>MyForm.obj : error LNK2028: 無法解析的語彙基元 (0A0005BD) "int __cdecl cv::_interlockedExchangeAdd(int *,int)" (?_interlockedExchangeAdd@cv@@$$FYAHPAHH@Z) 在函式 "private: void __clrcall NTMeasurement::MyForm::pictureBox1_MouseUp(class System::Object ^,class System::Windows::Forms::MouseEventArgs ^)" (?pictureBox1_MouseUp@MyForm@NTMeasurement@@$$FA$AAMXP$AAVObject@System@@P$AAVMouseEventArgs@Forms@Windows@4@@Z) 中被參考
+     1>ImageProcessing.obj : error LNK2028: 無法解析的語彙基元 (0A0005A8) "int __cdecl cv::_interlockedExchangeAdd(int *,int)" (?_interlockedExchangeAdd@cv@@$$FYAHPAHH@Z) 在函式 "public: void __thiscall cv::SparseMat::addref(void)" (?addref@SparseMat@cv@@$$FQAEXXZ) 中被參考
+     1>ImageProcessing.obj : error LNK2019: 無法解析的外部符號 "int __cdecl cv::_interlockedExchangeAdd(int *,int)" (?_interlockedExchangeAdd@cv@@$$FYAHPAHH@Z) 在函式 "public: void __thiscall cv::SparseMat::addref(void)" (?addref@SparseMat@cv@@$$FQAEXXZ) 中被參考
+     1>MyForm.obj : error LNK2001: 無法解析的外部符號 "int __cdecl cv::_interlockedExchangeAdd(int *,int)" (?_interlockedExchangeAdd@cv@@$$FYAHPAHH@Z)
+     1>NTMeasurement.obj : error LNK2001: 無法解析的外部符號 "int __cdecl cv::_interlockedExchangeAdd(int *,int)" (?_interlockedExchangeAdd@cv@@$$FYAHPAHH@Z)
+     1>ImageProcessing.obj : error LNK2019: 無法解析的外部符號 "public: void __thiscall cv::Mat::copySize(class cv::Mat const &)" (?copySize@Mat@cv@@$$FQAEXABV12@@Z) 在函式 "public: __thiscall cv::Mat::Mat(class cv::Mat const &)" (??0Mat@cv@@$$FQAE@ABV01@@Z) 中被參考
+     1>MyForm.obj : error LNK2001: 無法解析的外部符號 "public: void __thiscall cv::Mat::copySize(class cv::Mat const &)" (?copySize@Mat@cv@@$$FQAEXABV12@@Z)
+     1>NTMeasurement.obj : error LNK2001: 無法解析的外部符號 "public: void __thiscall cv::Mat::copySize(class cv::Mat const &)" (?copySize@Mat@cv@@$$FQAEXABV12@@Z)
+     1>D:\碩一\ImageProcessing\HW2\NTMeasurement\Debug\NTMeasurement.exe : fatal error LNK1120: 8 個無法解析的外部符號
+     1>專案 "D:\碩一\ImageProcessing\HW2\NTMeasurement\NTMeasurement\NTMeasurement.vcxproj" (Build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:03.90

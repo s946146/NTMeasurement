@@ -1,0 +1,19 @@
+﻿已經開始建置於 2016/8/10 下午 09:18:44。
+     1>節點 2 (Build 目標) 上的專案 "D:\碩一\ImageProcessing\HW2\NTMeasurement\NTMeasurement\NTMeasurement.vcxproj"。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\碩一\ImageProcessing\HW2\NTMeasurement\x64\Debug\NTMeasurement.exe" /INCREMENTAL /NOLOGO opencv_core247d.lib opencv_imgproc247d.lib opencv_highgui247d.lib opencv_ml247d.lib opencv_video247d.lib opencv_features2d247d.lib opencv_calib3d247d.lib opencv_objdetect247d.lib opencv_contrib247d.lib opencv_legacy247d.lib opencv_flann247d.lib opencv_nonfree247d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:x64\Debug\NTMeasurement.MyForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\碩一\ImageProcessing\HW2\NTMeasurement\x64\Debug\NTMeasurement.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X64 x64\Debug\app.res
+         x64\Debug\AssemblyInfo.obj
+         x64\Debug\chanvese.obj
+         x64\Debug\ImageProcessing.obj
+         x64\Debug\MyForm.obj
+         x64\Debug\NTMeasurement.obj
+         x64\Debug\stdafx.obj
+         "x64\Debug\.NETFramework,Version=v4.5.1.AssemblyAttributes.obj"
+     1>MyForm.obj : warning LNK4258: 指示詞 '/entry:WinMainCRTStartup' 與參數 '/ENTRY:main' 不相容。已忽略
+     1>NTMeasurement.obj : warning LNK4258: 指示詞 '/entry:WinMainCRTStartup' 與參數 '/ENTRY:main' 不相容。已忽略
+         NTMeasurement.vcxproj -> D:\碩一\ImageProcessing\HW2\NTMeasurement\x64\Debug\NTMeasurement.exe
+     1>專案 "D:\碩一\ImageProcessing\HW2\NTMeasurement\NTMeasurement\NTMeasurement.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:01.16
